@@ -16,6 +16,5 @@
 - function dengan nama `penjumlahan` yang menerima parameter `angkaPertama` dan `angkaKedua`, di dalam function tuliskan kode untuk melakukan penjumlahan terhadap angkaPertama dan angkaKedua
 - function dengan nama `cetakHobi`, tuliskan kode untuk mencetak hobi dengan konsep perulangan, silakan untuk menggunakan `for`, `for of`, atau `forEach`
 
-
-
-catatan: dalam melakukan pencetakan dapat menggunakan console.log() atau return saja, contoh : `console.log(hasil)`, atau `return hasil`
+# Hasil Running Program
+![hasil](https://github.com/jakfarshodiq230/NodeJS_dasar/blob/main/hasil_1.png)
