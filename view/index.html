@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATIHAN | JS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="container mx-auto px-10">
+        <div style='background-color:rgb(255, 255, 255)'>
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4 pt-20 pb-10 lg:pt-10 lg:pb-20"
+                style="cursor: auto;">
+                <div class="p-6 bg-gray-100 rounded-lg">
+                    <div class="mb-5">
+                        <svg class="hi-outline hi-sparkles inline-block w-12 h-12 text-indigo-500" stroke="currentColor"
+                            fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">
+                        Soal I <br> Membuat Variabel
+                    </h3>
+                    <p class="text-sm leading-6 text-gray-600" id="variabel"></p>
+                </div>
+                <div class="p-6 bg-gray-100 rounded-lg">
+                    <div class="mb-5">
+                        <svg class="hi-outline hi-sparkles inline-block w-12 h-12 text-indigo-500" stroke="currentColor"
+                            fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">
+                        Soal 2 <br> Membuat Array
+                    </h3>
+                    <p class="text-sm leading-6 text-gray-600" id="arraY"></p>
+                    <p class="text-sm leading-6 text-gray-600" id="sosialMedia"></p>
+                </div>
+                <div class="p-6 bg-gray-100 rounded-lg">
+                    <div class="mb-5">
+                        <svg class="hi-outline hi-sparkles inline-block w-12 h-12 text-indigo-500" stroke="currentColor"
+                            fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">
+                        Soal 3 <br> Membuat Fanction
+                    </h3>
+                    <p class="text-sm leading-6 text-gray-600" id="cetak"></p>
+                    <p class="text-sm leading-6 text-gray-600" id="jumlahan"></p>
+                    <p class="text-sm leading-6 text-gray-600" id="forForEachV"></p>
+                    <p class="text-sm leading-6 text-gray-600" id="pVor"></p>
+                    <p class="text-sm leading-6 text-gray-600" id="ForOF"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../latihan-dasar.js"></script>
+    <script>
+        // variabel
+        var soal1= "let nama = '11753101951' <br> let usia = '12' <br> let alamat = 'jalan tukiman' <br>";
+        var identitas ="<b>Nama : </b>"+nama+"<br><b> Usia : </b>"+usia+"<br><b> Alamat : </b>"+alamat;
+        document.getElementById("variabel").innerHTML = soal1 +"Hasil Running Program <br>"+ identitas;
+        // array
+        document.getElementById("arraY").innerHTML = "<b>Array Hobi :</b> "+hobi;
+        document.getElementById("sosialMedia").innerHTML = "<b> Array Media Sosial : </b> " + sosialMedia.gitlab;
+        // fanction
+        document.getElementById("cetak").innerHTML = "1. Hasil Running Fanction cetakNama : <br> <b>"+cetakNama()+"</b>";
+        document.getElementById("jumlahan").innerHTML = "2. Hasil Running Fanction penjumlahan(12, 4) : <br><b>"+penjumlahan(12, 4)+"</b>";
+        document.getElementById("forForEachV").innerHTML = "3. Hasil Running Fanction Perulangan forForEach : <br><b>"+forForEach()+"</b>";
+        document.getElementById("pVor").innerHTML = "4. Hasil Running Fanction Perulangan For : <br><b>"+vFor()+"</b>";
+        document.getElementById("ForOF").innerHTML = "5. Hasil Running Fanction Perulangan For Of : <br><b>"+forOF()+"</b>";
+
+    </script>
+</body>
+
+</html>
