@@ -10,8 +10,8 @@ let text2=' ';
 const hobi = ['Futsal','Sepak Bola', 'Batminton'];
 const sosialMedia= {facbook:'lalalalal', istragam:'wkwkwkwkwkkw', gitlab:'https://github.com/jakfarshodiq230/NodeJS_dasar'}
 
-function cetakNama(){
-    textCetak = 'Halo, Nama Saya', nama;
+function cetakNama(nama){
+    textCetak = 'Halo, Nama Saya', ${nama};
     return textCetak;
 }
 
